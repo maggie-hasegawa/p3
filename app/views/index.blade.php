@@ -1,12 +1,13 @@
 @extends('layout')
 
-@section('head')
-	<title>Developer's Best Friend</title>
-	<link href="{{ asset('bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-	<link href="{{ asset('bootstrap/css/amelia-theme.css') }}" rel="stylesheet">
-	<script src="{{ asset('bootstrap/js/boostrap.min.js') }}"></script>
+@section('banner')
+	<div class="row">
+		<div class="col-lg-8 col-md-7 col-sm-6">
+			<h1>Developer's Best Friend</h1>
+		</div>
+	</div>
 @stop
 
 @section('content')
-	<h1>Developer's Best Friend</h1>
+	<p>Content</p>
 @stop
