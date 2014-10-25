@@ -15,3 +15,8 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+Route::get('/p3', function()
+{
+	return View::make('index');
+});
