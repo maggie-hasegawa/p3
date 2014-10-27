@@ -4,6 +4,7 @@
 		<title>Developer's Best Friend</title>
 		<link href="{{ asset('bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 		<link href="{{ asset('bootstrap/css/amelia-theme.css') }}" rel="stylesheet">
+		<link href="{{ asset('css/common.css') }}" rel="stylesheet">
 		<script src="{{ asset('//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js') }}"</script>
 		<script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"</script>
 	</head>
@@ -14,8 +15,8 @@
 			</div>
 			<div id="navbar-main" class="navbar-collapse collapse navbar-responsive-collapse">
 				<ul class="nav navbar-nav">
-					<li><a href="#">Lorem Ipsum</a></li>
-					<li><a href="#">Users</a></li>
+					<li><a href="/p3/lorem">Lorem Ipsum</a></li>
+					<li><a href="/p3/users">Users</a></li>
 				</ul>	
 			</div>
 		</div>

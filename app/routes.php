@@ -11,12 +11,17 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
-
 Route::get('/p3', function()
 {
 	return View::make('index');
+});
+
+Route::get('/p3/lorem', function()
+{
+	return View::make('lorem-ipsum');
+});
+
+Route::get('/p3/users', function()
+{
+	return View::make('users');
 });
