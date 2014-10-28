@@ -25,3 +25,11 @@ Route::get('/p3/users', function()
 {
 	return View::make('users');
 });
+
+Route::post('/p3/lorem', function()
+{
+	$number = $_POST["number-of-paragraphs"];
+	return View::make('paragraphs')
+		->with('number', $number);
+});
+

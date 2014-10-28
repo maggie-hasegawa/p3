@@ -10,14 +10,14 @@
 
 @section('content')
 	<div class="well bs-component form-div">
-		<form class="form-horizontal" method="POST">
+		<form class="form-horizontal" method="POST" action="/p3/lorem">
 			<div class="form-group">
 					<div class="col-lg-3">
-						<input id="number-of-paragraphs" class="form-control" size="10" type="text"/>
+						<input id="number-of-paragraphs" name="number-of-paragraphs" class="form-control" size="10" type="text"/>
 					</div>
 					<label class="col-lg-2 control-label" for="number-of-paragraphs">PARAGRAPHS</label>
 			</div>
-			<div class="radio">
+			<!--<div class="radio">
 				<label class="col-lg-2 control-label" for="paragraph-length">
 					<input id="optionsRadios1" type="radio" value="long" name="paragraph-length">
 					LONG
@@ -30,7 +30,7 @@
 					<input id="optionsRadios3" type="radio" value="short" name="paragraph-length">
 					SHORT
 				</label>
-			</div>
+			</div>-->
 			<br>
 			<br>
 			<div class="form-group">
