@@ -17,20 +17,6 @@
 					</div>
 					<label class="col-lg-2 control-label" for="number-of-paragraphs">PARAGRAPHS</label>
 			</div>
-			<!--<div class="radio">
-				<label class="col-lg-2 control-label" for="paragraph-length">
-					<input id="optionsRadios1" type="radio" value="long" name="paragraph-length">
-					LONG
-				</label>
-				<label class="col-lg-2 control-label" for="paragraph-length">
-					<input id="optionsRadios2" type="radio" value="medium" name="paragraph-length">
-					MEDIUM
-				</label>
-				<label class="col-lg-2 control-label" for="paragraph-length">
-					<input id="optionsRadios3" type="radio" value="short" name="paragraph-length">
-					SHORT
-				</label>
-			</div>-->
 			<br>
 			<br>
 			<div class="form-group">

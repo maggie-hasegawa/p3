@@ -33,3 +33,10 @@ Route::post('/p3/lorem', function()
 		->with('number', $number);
 });
 
+Route::post('/p3/users', function()
+{
+	$number = $_POST["number-of-users"];
+	return View::make('data')
+		->with('number', $number);
+});
+
