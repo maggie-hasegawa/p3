@@ -11,29 +11,29 @@
 |
 */
 
-Route::get('/p3', function()
+Route::get('/', function()
 {
 	return View::make('index');
 });
 
-Route::get('/p3/lorem', function()
+Route::get('/lorem', function()
 {
 	return View::make('lorem-ipsum');
 });
 
-Route::get('/p3/users', function()
+Route::get('/users', function()
 {
 	return View::make('users');
 });
 
-Route::post('/p3/lorem', function()
+Route::post('/lorem', function()
 {
 	$number = $_POST["number-of-paragraphs"];
 	return View::make('paragraphs')
 		->with('number', $number);
 });
 
-Route::post('/p3/users', function()
+Route::post('/users', function()
 {
 	$number = $_POST["number-of-users"];
 	return View::make('data')

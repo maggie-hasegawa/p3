@@ -11,12 +11,12 @@
 	<body>
 	    <div class="navbar navbar-default navbar-fixed-top">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="/p3">Home</a>
+				<a class="navbar-brand" href="/">Home</a>
 			</div>
 			<div id="navbar-main" class="navbar-collapse collapse navbar-responsive-collapse">
 				<ul class="nav navbar-nav">
-					<li><a href="/p3/lorem">Lorem Ipsum</a></li>
-					<li><a href="/p3/users">Users</a></li>
+					<li><a href="/lorem">Lorem Ipsum</a></li>
+					<li><a href="/users">Users</a></li>
 				</ul>	
 			</div>
 		</div>

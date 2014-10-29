@@ -10,7 +10,7 @@
 
 @section('content')
 	<div class="well bs-component form-div">
-		<form class="form-horizontal" method="POST" action="/p3/users">
+		<form class="form-horizontal" method="POST" action="/users">
 			<div class="form-group">
 					<div class="col-lg-2">
 						<input id="number-of-users" name="number-of-users" class="form-control" size="10" type="text"/>

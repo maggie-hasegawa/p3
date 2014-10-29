@@ -10,7 +10,7 @@
 
 @section('content')
 	<div class="well bs-component form-div">
-		<form class="form-horizontal" method="POST" action="/p3/lorem">
+		<form class="form-horizontal" method="POST" action="/lorem">
 			<div class="form-group">
 					<div class="col-lg-3">
 						<input id="number-of-paragraphs" name="number-of-paragraphs" class="form-control" size="10" type="text"/>
