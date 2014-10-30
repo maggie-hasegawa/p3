@@ -7,7 +7,7 @@
 This is a simple web application which consists of a landing page with a description of the site, a Lorem Ipsum text generator and a Random User generator.
 
 ## Demo
-I've used Jing to record a short screencast giving a walkthrough of the site. The screencast can be found here: ().
+I've used Jing to record a short screencast giving a walkthrough of the site. The screencast can be found here: (http://screencast.com/t/pgsTRpqtqoF).
 
 ## Details for the teaching team
 There are no special details or requirements for this project. 
